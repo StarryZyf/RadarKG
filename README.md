@@ -9,3 +9,5 @@ sudo apt-get install tesseract-ocr-chi-sim
 
 pip install spacy  
 python -m spacy download zh_core_web_sm  
+
+pip install rake-nltk scikit-learn
