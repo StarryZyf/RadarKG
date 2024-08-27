@@ -134,7 +134,7 @@ if __name__ == "__main__":
     categories = load_keywords_by_category(keyword_files)
     
     # 论文文件夹路径，需要按实际情况替换
-    paper_folder_path = '../../TXT1'
+    paper_folder_path = '../../TXT'
     sentences = parse_paper_directory(paper_folder_path)
     
     relations = extract_relations(sentences, categories)
